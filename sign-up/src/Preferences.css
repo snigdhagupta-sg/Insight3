@@ -1,0 +1,81 @@
+.preferences-form {
+    font-family: 'Arial, sans-serif';
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.preferences-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.preferences-form p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.preference-item {
+    margin-bottom: 15px;
+}
+
+.preference-item label {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.preference-item input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.update-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:#503e45;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.update-button:hover {
+    background: linear-gradient(to right, #503e45, #d4aaa0);
+}
+/* Hide the default checkbox */
+.preference-item input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.preference-item input[type="checkbox"]:checked {
+    background-color:#503e45; 
+}
+
+
+.preference-item input[type="checkbox"]:checked::after {
+    content: '\2714'; /* Unicode character for checkmark */
+    font-size: 16px;
+    color: white; /* Color of the tick */
+    position: absolute;
+    top: -2px;
+    left: 3px;
+}

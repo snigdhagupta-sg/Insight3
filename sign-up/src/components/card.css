@@ -1,0 +1,12 @@
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width:20px;
+}
+.btn-primary{
+  background:linear-gradient(linear-gradient(to right, #555253, #f0b1a1));
+  background-color: #926d79 ;
+}

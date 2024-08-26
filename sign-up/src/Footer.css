@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.footer {
+  background: linear-gradient(to right, #503e45, #d4aaa0);
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .pen-icon {
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .social-icons a {
+      margin: 0 5px;
+    }
+  }
+  

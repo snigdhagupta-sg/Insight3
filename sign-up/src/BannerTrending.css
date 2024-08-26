@@ -1,0 +1,80 @@
+/* BannerTrending.css */
+
+.banner-trending-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f1f1f1;
+    gap: 20px;
+  }
+  
+  .banner-image {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .banner-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .trending-section {
+    flex: 1;
+    min-width: 250px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #503e45, #d4aaa0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  .trending-section h2 {
+    margin-bottom: 15px;
+    color: linear-gradient(to right, #503e45, #d4aaa0);
+    font-size: 1.5em;
+    border-bottom: 2px solid #503e45;
+    padding-bottom: 5px;
+  }
+  
+  .trending-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .trending-section li {
+    margin-bottom: 10px;
+  }
+  
+  .trending-section a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+  }
+  
+  .trending-section a:hover {
+    background: linear-gradient(to right, #503e45, #d4aaa0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .banner-trending-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .banner-image, .trending-section {
+      min-width: 100%;
+    }
+  
+    .trending-section {
+      margin-top: 20px;
+    }
+  }
+  

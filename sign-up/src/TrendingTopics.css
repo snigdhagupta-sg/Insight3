@@ -1,0 +1,42 @@
+/* TrendingTopics.css */
+
+.trending-topics {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trending-topics h2 {
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #503e45, #d4aaa0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5em;
+    border-bottom:linear-gradient(to right, #503e45, #d4aaa0);
+    padding-bottom: 5px;
+  }
+  
+  .trending-topics ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .trending-topics li {
+    margin-bottom: 10px;
+  }
+  
+  .trending-topics a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+  }
+  
+  .trending-topics a:hover {
+    background: linear-gradient(to right, #503e45, #d4aaa0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+  }
+  
